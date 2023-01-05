@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Open Sans";
+  box-sizing: border-box;
+}
+
+/* header nav area */
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-position: bottom right, left;
+  background-repeat: no-repeat;
+}
+
+.nav-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 150px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+/* Shared */
+.primary-color {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  height: 64px;
+  background: #fd6e0a;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 0;
+  padding: 18px 35px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+/* header Banner area */
+.header-banner {
+  display: flex;
+  align-items: center;
+  margin: 0 150px;
+}
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  color: #474747;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  color: #181818;
+  padding-bottom: 20px;
+}
+
+.banner-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.btn-contact {
+  height: 64px;
+  border-radius: 5px;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  padding: 18px 35px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  background: none;
+}
+
+/* main area */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about section */
+
+.about-section {
+  margin-top: 130px;
+  text-align: center;
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 131px 156px;
+}
+.section-title {
+  color: #181818;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  padding-bottom: 30px;
+}
+
+.about-des {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  padding-bottom: 30px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-info p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+}
+.about-info .data {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #474747;
+}
